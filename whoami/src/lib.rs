@@ -1,3 +1,4 @@
+#![cfg_attr(target_os = "wasi", feature(wasip2))]
 //! Rust library for getting information about the current user and environment.
 //!
 //! ## Getting Started
